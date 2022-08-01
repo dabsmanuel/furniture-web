@@ -4,7 +4,6 @@ import box from "./../../Assets/box.png";
 import closet from './../../Assets/closet.png';
 import frame from "./../../Assets/frame.png";
 import furniture from "./../../Assets/Furniture.png";
-import HangingCloset from "./../../Assets/HangingCloset.png";
 import bedroom from "./../../Assets/tableSetup.png";
 import light from './../../Assets/llight 1.png'
 
