@@ -133,7 +133,7 @@
     }
 
     .nav-toggle.open > .bar::after {
-        transform: rotate(-45deg) translate(26, -26px);
+        transform: rotate(-45deg) translate(26px, -26px);
         position: relative;
         z-index: 11111;
     }
