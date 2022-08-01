@@ -1,0 +1,37 @@
+.hero {
+    background-image: url('./../../Assets/hero.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 130vh;
+}
+
+.head {
+    margin: 22vh auto;
+    text-align: center;
+    color: var(--color-text);
+}
+
+.head h1{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+
+.head p{
+     width: 40%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .head h1 {
+        font-size: 20px;
+    }
+
+    .head p {
+        width: 70%;
+    }
+}
+
+

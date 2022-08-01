@@ -1,0 +1,66 @@
+.aesthetic {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.aesthetic-image img {
+    border-radius: 1.2rem;
+}
+
+.aesthetic .write-up h1{
+    font-size: 2.5rem;
+}
+
+
+.aesthetic p, .aesthetic h4 {
+    font-size: 1.2rem;
+}
+
+.aesthetic .write-up .shift p {
+    margin: 1.5rem 0rem 1.5rem 0;
+}
+
+.aesthetic .write-up .elements p {
+    margin-bottom: 1rem;
+    position: relative;
+    left: 3.5rem;
+    width: 90%;
+}
+
+.write-up span {
+    position: relative;
+    left:2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .aesthetic {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        position: relative;
+    }
+
+    .aesthetic .aesthetic-image img {
+        width: 100%;
+    }
+
+    .write-up {
+        margin-bottom: -3rem;
+    }
+
+    .write-up h4 {
+        font-size: 1rem;
+    }
+
+    .aesthetic .write-up .elements p {
+        margin-bottom: 2.2rem;
+        position: relative;
+        left: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aesthetic .write-up h1 {
+        font-size: 24px;
+    }
+}

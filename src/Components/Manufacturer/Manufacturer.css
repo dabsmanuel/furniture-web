@@ -1,0 +1,55 @@
+.best {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.furniture {
+    position: relative;
+    top: -2rem;
+    left: 1rem;
+}
+
+.furniture h1 {
+    font-size: 2.5rem;
+    width: 85%;
+    margin-bottom: 1rem;
+}
+
+.furniture p {
+    width: 80%;
+    font-size: 1.2rem;
+}
+
+.dining img {
+    border-radius: 1.3rem;
+}
+
+@media screen and  (max-width: 1024px) {
+    .best {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+
+    .furniture h1 {
+    font-size: 1.5rem;
+    width: 80%;
+    }
+
+    .furniture p {
+        width: 81%;
+    }
+
+    .dining img {
+        width: 80%;
+        position: relative;
+        left: 3rem;
+        top: -2.6rem;
+    }
+}

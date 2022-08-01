@@ -1,0 +1,92 @@
+.store {
+    display: grid;
+    grid-template-columns: 20% 75%;
+    gap: 5%;
+    padding-top: 7rem;
+}
+
+.flex-section {
+    display: flex;
+    gap: 1rem;
+}
+
+.ImgContainer {
+    width: 60%;
+}
+
+.storeText h1 {
+    font-size: 2.5rem; 
+    position: relative;
+    top: 1rem;
+}
+
+.storeText p{
+    position: relative;
+    top: 7rem;
+}
+
+.storeText a{
+    text-decoration: underline;
+    font-weight: 600;
+    color: var(--color-head);
+    position: relative;
+    top: 9rem;
+}
+
+.ImgContainer p {
+    text-align: center !important;
+    font-size: 1.2rem;
+    color: var(--color-text);
+    width: 90%;
+    font-weight: bolder;
+    position: relative;
+    top: -4rem;
+}
+
+@media screen and  (max-width: 1024px) {
+    .store {
+        display: block;
+        gap: 0;
+        padding-top: 2rem;
+    }
+
+    .flex-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        width: 80%;
+        margin-top: 2rem;
+    }
+
+    .storeText {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .storeText h1 {
+        font-size: 2rem;
+    }
+
+    .storeText p, .storeText a {
+        top: 0;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    .storeText h1 {
+        font-size: 24px;
+    }
+
+    .storeText p, .storeText a{
+        position: relative;
+        top: 1rem;
+    }
+
+    .flex-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
