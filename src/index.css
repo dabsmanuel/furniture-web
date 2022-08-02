@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  background: var(--color-bg);
+  background: var(--color-text);
   overflow-x: hidden;
   font-family: "Saira";
 }

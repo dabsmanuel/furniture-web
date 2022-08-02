@@ -54,6 +54,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
+        row-gap: 0;
         width: 80%;
         margin-top: 2rem;
     }
@@ -74,10 +75,14 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     
     .storeText h1 {
         font-size: 24px;
+    }
+
+    .storeText {
+        gap: 3rem;
     }
 
     .storeText p, .storeText a{
@@ -88,5 +93,15 @@
     .flex-section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        row-gap: 0;
+    }
+
+    .ImgContainer{
+        margin: 0 auto;
+    }
+
+    .ImgContainer img {
+        width: 10rem;
     }
 }

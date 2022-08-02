@@ -1,4 +1,41 @@
 .carousel{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+}
+
+.carousel .box {
+    padding: 1rem;
+}
+
+.carousel .box .prices {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box .prices small {
+    text-decoration: line-through;
+}
+
+.box img {
+    width: 95%;
+    border: 2px solid var(--color-bg);
+    border-radius: 1rem;
+}
+
+.product{
+    margin-top: 4rem;
+}
+
+.product-head {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+     .carousel {
+    grid-template-columns: repeat(2, 1fr);
+    }
 }

@@ -1,0 +1,45 @@
+section.test{
+    margin-top: 5rem;
+    display: grid;
+    place-items: center;
+}
+
+.testimonial-container {
+    display: flex;
+    padding-bottom: 2rem;
+    gap: 1rem;
+}
+
+.testimony {
+    margin-top: 1.7rem;
+}
+
+.testimony h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.test-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+@media screen and (max-width:1024px){
+    .testimonial-container {
+        flex-wrap: wrap;
+    }
+
+    .testimonial-image img {
+        width: 99%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .testimony h1 {
+        font-size: 1.7rem;
+    }
+}

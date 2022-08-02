@@ -123,7 +123,7 @@
     }
 
     .nav-toggle.open > .bar {
-        transform: translateX(-35px);
+        transform: translateX(-35px, 26px);
         background: transparent;
     }
 
@@ -133,9 +133,8 @@
     }
 
     .nav-toggle.open > .bar::after {
-        transform: rotate(-45deg) translate(26px, -26px);
-        position: relative;
-        z-index: 11111;
+        transform: rotate(-45deg) translate(-26px, -26px);
+       
     }
 
     .nav-items.open {

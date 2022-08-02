@@ -4,7 +4,7 @@ import './Products.css'
 
 function Products() {
   return (
-    <section className='container'>
+    <section className='container product'>
       <div className="product-head">
         <h1>All Product</h1>
         <p>
@@ -21,9 +21,11 @@ function Products() {
                 <img src={pic} alt="pics" />
               </article>
               <h3>{title}</h3>
-              <div className='prices'>
+              <div className="prices">
                 <p>{price}</p>
-                <small>{discount}</small>
+                <small>
+                  {discount}
+                </small>
               </div>
             </div>
           );
